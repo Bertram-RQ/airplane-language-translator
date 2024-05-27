@@ -1,0 +1,56 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom left, rgb(128, 0, 128), rgb(255, 196, 0));
+    /* Yellowish-brown color */
+    /* Brown border */
+    box-sizing: border-box;
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+
+.inner-div input {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+    /* Padding inside the input */
+    font-size: 20px;
+    /* Larger font size */
+    border: 2px solid #ccc;
+    /* Border for the input */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+}
+
+.inner-div .converted-here {}
+
+.inner-div button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
